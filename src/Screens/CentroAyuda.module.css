@@ -1,0 +1,25 @@
+.centroAyuda {
+    display: flex;
+    padding-top: 50px;
+    background: linear-gradient(180deg, #1a1826, #1b0088);
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.centroAyuda h1 {
+    color: #f1f1f1;
+    padding-bottom: 50px;
+}
+
+.centroAyuda h2 {
+    color: #f1f1f1;
+}
+
+.accordionBody {
+    background: #1b0088;
+}
+
+.accordionBody p {
+    color: #f1f1f1;
+    text-align: justify;
+}

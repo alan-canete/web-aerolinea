@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import styles from "./Navbar.module.css";
 import { TiThMenu } from "react-icons/ti";
 import { AiOutlineClose } from "react-icons/ai";
+import { IoIosAirplane } from "react-icons/io";
 import { useScrollPosition } from "../Hooks/scrollPosition";
 
 const Navbar = () => {
@@ -63,7 +64,7 @@ const Navbar = () => {
                     : styles.navBar
         }
         >
-            {!navBarOpen && <p className={styles.logo}>AEROLÍNEA | Vuela Lejos</p>}
+            {!navBarOpen && <p className={styles.logo}>AEROLÍNEA | Vuela Lejos <IoIosAirplane color="#f1f1f1" /></p>}
             {!navBarOpen && windowDimension.width < 800 ? (
                 <TiThMenu color="#f1f1f1" onClick={() => setNavBarOpen(!navBarOpen)} size={25} />
             ) : windowDimension.width < 800 && (

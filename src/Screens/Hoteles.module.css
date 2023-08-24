@@ -1,7 +1,7 @@
 .image {
     width: 300px;
     height: 200px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .hoteles {
@@ -13,7 +13,13 @@
     padding-bottom: 100px;
 }
 
-.hoteles p {
-    font-size: 2em;
+.hoteles h1 {
     color: #f1f1f1;
+    padding-bottom: 50px;
+}
+
+.hoteles p {
+    font-size: 1em;
+    color: #f1f1f1;
+    padding-bottom: 30px;
 }

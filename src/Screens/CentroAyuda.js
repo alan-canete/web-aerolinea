@@ -24,10 +24,10 @@ const CentroAyuda = () => {
 
   return (
     <div name="CentroAyuda" className={styles.centroAyuda}>
-      <h1>Centro de Ayuda</h1>
+      <h1><b>Centro de Ayuda</b></h1>
       <h2><b>Preguntas frecuentes</b></h2>
 
-      <Accordion open={open} toggle={toggle}>
+      <Accordion className={styles.acorrdion} open={open} toggle={toggle}>
         <AccordionItem >
           <AccordionHeader targetId="1"><b>¿Cómo funciona el Check-in automático?</b></AccordionHeader>
           <AccordionBody className={styles.accordionBody} accordionId="1">
